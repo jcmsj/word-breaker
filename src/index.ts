@@ -1,7 +1,6 @@
 import { WordIterator } from "../lib";
 
-const wbc = [' ', '-', '—']
-const iter = WordIterator(" Hello, my world!",  wbc);
+const iter = WordIterator(" Hello, my world!");
 for (const word of iter) {
     console.log(word);
 }
