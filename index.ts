@@ -1,0 +1,1 @@
+export {WordIterator} from "./lib/index"
